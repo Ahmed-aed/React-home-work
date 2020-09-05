@@ -9,12 +9,13 @@
 }
 h3{
     font-weight: normal;
+    margin-bottom: 0;
 }
 a{
     text-decoration: none;
 }
 a:hover {
-    text-decoration: ;
+    text-decoration:underline;
 }
 
 .logo{
@@ -116,4 +117,57 @@ header{
 .result{
     padding-left: 163px;
     margin-top: 5px;
+}
+.subHeader a{
+    font-size: 13px;
+    color: #006621;
+}
+.box2Ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 13px;
+    color: #3c4043;
+    justify-content: space-between;
+}
+.pUl{
+    font-size: 13px;
+    color: #3c4043;
+
+}
+
+.mb20{
+    margin-bottom: 20px;
+}
+.box5Ul{
+    list-style-type: none;
+    border: 1px solid #dfe1e5;
+    border-radius: 8px;
+   
+}
+.box5Ul li{
+    border-bottom: 1px solid #dfe1e5;
+    padding: 9px 16px 9px 16px;
+    font-size: 13px;
+    color: #3c4043;
+}
+.box5Ul .li1{
+    font-size: 18px;
+    color: #3c4043;
+}
+.box8{
+    display: flex;
+    
+}
+.box8 .rightUl{
+  margin-left: 20px;
+}
+.box8 ul{
+    list-style-type: none;
+    font-size: 13px;
+
+}
+.relatedSrarches{
+    color: #222;
+    font-weight: normal;
+    margin-bottom: 8px;
 }
