@@ -59,7 +59,7 @@ a:hover {
 .searchInput{
     width: 50%;
 }
-.headerListII {
+.headerListII,.navBar {
     display: flex;
     list-style-type: none;
     padding-left: 160px;
@@ -170,4 +170,25 @@ header{
     color: #222;
     font-weight: normal;
     margin-bottom: 8px;
+}
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+}
+.navBar{
+    background-color: #f2f2f2;
+}
+
+
+.navBar li {
+    padding: 10px 20px 10px 0px;
+}
+
+.navBar li a {
+    color: #5f6368;
+    text-decoration: none;
+    font-size: 13px;
+
 }
