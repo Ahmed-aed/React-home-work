@@ -2,7 +2,21 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: arial,sans-serif;
+    line-height: 1.7;
+
+
 }
+h3{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: ;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -21,7 +35,7 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding: 20px;
+    padding: 20px 20px 9px 20px;
     align-items: center;
     width: 100%;
 
@@ -61,7 +75,45 @@ padding-left: 100px;
 .headerListII li{
     padding: 6px;
     color: #5f6368;
+    font-size: 13px;
 }
 header{
     border-bottom:1px solid #dfe1e5;
+}
+.content{
+    display: flex;
+    margin-top: 10px;
+}
+
+.left{
+    width: 50%;
+    padding-left: 163px;
+
+}
+
+.right{
+    width: 50%;
+    
+}
+.uldivs{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 39px;
+    margin-top: 20px;
+}
+.uldivs ul{
+    list-style-type: none;
+
+}
+.uldivs ul li{
+    margin-bottom: 20px;
+}
+.uldivs ul li p, .pBox1,.result{
+    font-size: 14px;
+    color: #3c4043;
+
+}
+.result{
+    padding-left: 163px;
+    margin-top: 5px;
 }
